@@ -45,8 +45,8 @@ cookie_accept_message: Thanks!
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: jekyll-material-theme
+theme: minima
+remote_theme: jekyll-material-theme
 permalink: pretty
 plugins:
   - jekyll-feed
