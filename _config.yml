@@ -9,7 +9,7 @@ parallax_image_two: assets/images/startup3.jpg
 project_one: "First Project"
 project_one_description: Describe your project!
 project_one_url: https://github.com/jameshamann/jekyll-material-theme
-project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+project_one_icon: location_on
 
 project_two: Second Project
 project_two_description: Describe your project!
@@ -34,29 +34,21 @@ project_button: Github
 github: https://github.com/jameshamann/jekyll-material-theme
 medium: https://medium.com
 
-baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
-url: http://localhost:4000/ # The URL of your site
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://localhost:4000/ #the url of your site
 
 google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
 
-cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
+cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
 
+cookie_accept_message: Thanks!
 
-# Build settings
 # Build settings
 markdown: kramdown
-remote_theme: jekyll-material-theme
+# theme: minima
+theme: jekyll-material-theme
+permalink: pretty
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-assets
+  - jekyll-minifier
