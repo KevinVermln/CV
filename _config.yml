@@ -46,7 +46,7 @@ cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting 
 # Build settings
 markdown: kramdown
 theme: minima
-theme: jekyll-material-theme
+remote-theme: jekyll-material-theme
 plugins:
   - jekyll-feed
 
