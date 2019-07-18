@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: 'https://kevinvermln.github.io'
 exclude: ['README.md']
 permalink: pretty
 title: 'Jekyll Serif'
